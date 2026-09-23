@@ -1,1 +1,1213 @@
 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>BID Portal - Dubai Municipality</title>
+
+    <!-- Start BID Portal Assets -->
+    <link
+      href="styles/bid-portal-wrapper.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <script src="scripts/bid-scripts.js"></script>
+    <!-- End BID Portal Assets -->
+  </head>
+  <body
+    style="margin: 0; height: 100%; font-family: &quot;Dubai&quot;, sans-serif"
+  >
+    <!-- Start BID Portal Header -->
+    <div class="bid-portal-wrapper" dir="ltr">
+      <header
+        class="bg-no-repeat bg-cover bg-center bg-fixed system_header w-full relative z-999"
+        style="background-color: #1d23bb"
+      >
+        <div
+          class="flex justify-between bid-container content-center align-items-center py-3 w-full"
+          style="padding-top: 0.7rem; padding-bottom: 0.7rem"
+        >
+          <div
+            id="logo-placeholder"
+            class="flex justify-between items-center w-full"
+          >
+            <a href="https://buildindubai.gov.ae/" class="">
+              <img
+                src="images/dubai-govt-white.svg"
+                height="60"
+                class="lg:h-60px h-10"
+              />
+            </a>
+            <a href="https://buildindubai.gov.ae/" class="">
+              <img
+                src="images/bid-light.svg"
+                height="40"
+                class="w-auto h-45px"
+              />
+            </a>
+          </div>
+        </div>
+      </header>
+      <nav
+        class="flex justify-between items-center py-2 bg-#06134F bg-opacity-90 sticky top--1px z-999"
+        style="background-color: #151985"
+        data-v-f4e29083=""
+      >
+        <div class="bid-container w-full" data-v-f4e29083="">
+          <div
+            class="flex items-center justify-between align-items-center w-full"
+            data-v-f4e29083=""
+            style="max-height: 45.05px"
+          >
+            <div
+              id="mobile-view-menu"
+              class="block lg:display-none"
+              onclick="bidPortalToggleSideMenu(true)"
+            >
+              <i
+                class="dbicon burger-menu-outline text-white hover:text-yellow lg:text-2xl md:text-5xl text-4xl"
+                data-v-f4e29083=""
+              ></i>
+            </div>
+            <ul
+              class="font-medium hidden lg:flex lg:gap-2 me-auto navigation_header xl:gap-[1.1rem]"
+              data-v-f4e29083=""
+            >
+              <li data-v-f4e29083="">
+                <a
+                  href="https://buildindubai.gov.ae/"
+                  class="text-light-800 hover:underline"
+                  aria-label="Home"
+                  data-v-f4e29083=""
+                  ><i
+                    class="dbicon home-mini-outline !text-3xl pe-0 text-light-50"
+                    data-v-f4e29083=""
+                    style="font-size: 1.78rem !important"
+                  ></i
+                ></a>
+              </li>
+              <li data-v-f4e29083="">
+                <a
+                  href="https://buildindubai.gov.ae/#about-us"
+                  class="text-white hover:underline"
+                  data-v-f4e29083=""
+                  >About</a
+                >
+              </li>
+              <li data-v-f4e29083="">
+                <a
+                  href="https://buildindubai.gov.ae/user-journey"
+                  class="text-white hover:underline"
+                  data-v-f4e29083=""
+                  >Construction Journey</a
+                >
+              </li>
+              <li data-v-f4e29083="">
+                <a
+                  href="https://buildindubai.gov.ae/services"
+                  class="text-white hover:underline"
+                  data-v-f4e29083=""
+                  >Services</a
+                >
+              </li>
+              <li data-v-f4e29083="">
+                <a
+                  href="https://buildindubai.gov.ae/corporates"
+                  class="text-white hover:underline"
+                  data-v-f4e29083=""
+                  >Find Consultants &amp; Contractors</a
+                >
+              </li>
+              <li data-v-f4e29083="">
+                <a
+                  href="https://buildindubai.gov.ae/bim"
+                  class="text-white hover:underline"
+                  data-v-f4e29083=""
+                  >BIM/E-Checking</a
+                >
+              </li>
+              <li data-v-f4e29083="">
+                <a
+                  href="https://buildindubai.gov.ae/quick-pay/1"
+                  class="text-white hover:underline"
+                  data-v-f4e29083=""
+                  >Quick Pay</a
+                >
+              </li>
+              <li data-v-f4e29083="">
+                <a
+                  href="https://buildindubai.gov.ae/violation-enquiry"
+                  class="text-white hover:underline"
+                  data-v-f4e29083=""
+                  >Violations Enquiry</a
+                >
+              </li>
+              <li data-v-f4e29083="">
+                <a
+                  href="https://buildindubai.gov.ae/contact"
+                  class="text-white hover:underline"
+                  data-v-f4e29083=""
+                  >Contact Us</a
+                >
+              </li>
+              <li data-v-f4e29083="">
+                <div
+                  id="pv_id_2"
+                  class="p-megamenu p-component p-megamenu-horizontal"
+                  data-v-f4e29083=""
+                >
+                  <ul
+                    id="pv_id_2_list"
+                    class="p-megamenu-root-list"
+                    tabindex="0"
+                    role="menubar"
+                    aria-orientation="horizontal"
+                  >
+                    <li
+                      id="pv_id_2_0"
+                      class="p-menuitem"
+                      role="menuitem"
+                      aria-label=""
+                      aria-expanded="false"
+                      aria-haspopup="menu"
+                      aria-level="1"
+                      aria-setsize="1"
+                      aria-posinset="1"
+                    >
+                      <div class="p-menuitem-content">
+                        <a
+                          class="flex items-center p-2 cursor-pointer gap-3"
+                          data-v-f4e29083=""
+                          onclick="bidPortalToggleMegaMenu()"
+                        >
+                          <span
+                            class="pi pi-ellipsis-h text-primary-400"
+                            data-v-f4e29083=""
+                          ></span>
+                        </a>
+                      </div>
+                      <div
+                        id="bid-portal-megamenu-panel"
+                        class="p-megamenu-panel"
+                      >
+                        <div class="p-megamenu-grid">
+                          <div class="p-megamenu-col-3">
+                            <ul
+                              id="pv_id_2_0_0_0_list"
+                              role="menu"
+                              class="p-submenu-list p-megamenu-submenu"
+                            >
+                              <li
+                                class="p-megamenu-submenu-header p-submenu-header"
+                                role="presentation"
+                              ></li>
+                              <li
+                                id="pv_id_2_0_0_0_0"
+                                class="p-menuitem"
+                                role="menuitem"
+                                aria-label="Legislation &amp; Publications"
+                                aria-level="2"
+                                aria-setsize="2"
+                                aria-posinset="1"
+                              >
+                                <div class="p-menuitem-content">
+                                  <a
+                                    href="https://buildindubai.gov.ae/guide"
+                                    class="flex align-items-center p-3 cursor-pointer gap-3"
+                                    data-v-f4e29083=""
+                                  >
+                                    <span
+                                      class="flex items-center gap-1"
+                                      data-v-f4e29083=""
+                                    >
+                                      <span
+                                        class="inline-flex align-items-center justify-content-center rounded-full bg-primary w-3rem h-3rem"
+                                        data-v-f4e29083=""
+                                        ><i
+                                          class="pi pi-external-link !text-xl text-light-100"
+                                          data-v-f4e29083=""
+                                        ></i></span
+                                      ><span
+                                        class="fw-500 text-lg text-900 text-primary-400 ms-2"
+                                        data-v-f4e29083=""
+                                        >Legislation &amp; Publications</span
+                                      >
+                                    </span>
+                                  </a>
+                                </div>
+                              </li>
+
+                              <li
+                                id="pv_id_2_0_0_0_1"
+                                class="p-menuitem"
+                                role="menuitem"
+                                aria-label="BIM FAQs &amp; Videos"
+                                aria-level="2"
+                                aria-setsize="2"
+                                aria-posinset="2"
+                              >
+                                <div class="p-menuitem-content">
+                                  <a
+                                    href="https://buildindubai.gov.ae/bim#bim-videos"
+                                    class="flex align-items-center p-3 cursor-pointer gap-3"
+                                    data-v-f4e29083=""
+                                  >
+                                    <span
+                                      class="flex items-center gap-1"
+                                      data-v-f4e29083=""
+                                    >
+                                      <span
+                                        class="inline-flex align-items-center justify-content-center rounded-full bg-primary w-3rem h-3rem"
+                                        data-v-f4e29083=""
+                                        ><i
+                                          class="pi pi-eye !text-xl text-light-100"
+                                          data-v-f4e29083=""
+                                        ></i></span
+                                      ><span
+                                        class="fw-500 text-lg text-900 text-primary-400 ms-2"
+                                        data-v-f4e29083=""
+                                        >BIM FAQs &amp; Videos</span
+                                      >
+                                    </span>
+                                  </a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="p-megamenu-col-3">
+                            <ul
+                              id="pv_id_2_0_1_0_list"
+                              role="menu"
+                              class="p-submenu-list p-megamenu-submenu"
+                            >
+                              <li
+                                class="p-megamenu-submenu-header p-submenu-header"
+                                role="presentation"
+                              ></li>
+                              <li
+                                id="pv_id_2_0_1_0_0"
+                                class="p-menuitem"
+                                role="menuitem"
+                                aria-label="User Guides"
+                                aria-level="2"
+                                aria-setsize="1"
+                                aria-posinset="1"
+                              >
+                                <div class="p-menuitem-content">
+                                  <a
+                                    href="https://buildindubai.gov.ae/user-guide"
+                                    class="flex align-items-center p-3 cursor-pointer gap-3"
+                                    data-v-f4e29083=""
+                                  >
+                                    <span
+                                      class="flex items-center gap-1"
+                                      data-v-f4e29083=""
+                                    >
+                                      <span
+                                        class="inline-flex align-items-center justify-content-center rounded-full bg-primary w-3rem h-3rem"
+                                        data-v-f4e29083=""
+                                        ><i
+                                          class="pi pi-box !text-xl text-light-100"
+                                          data-v-f4e29083=""
+                                        ></i></span
+                                      ><span
+                                        class="fw-500 text-lg text-900 text-primary-400 ms-2"
+                                        data-v-f4e29083=""
+                                        >User Guides</span
+                                      >
+                                    </span>
+                                  </a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="p-megamenu-col-3">
+                            <ul
+                              id="pv_id_2_0_2_0_list"
+                              role="menu"
+                              class="p-submenu-list p-megamenu-submenu"
+                            >
+                              <li
+                                class="p-megamenu-submenu-header p-submenu-header"
+                                role="presentation"
+                              ></li>
+                              <li
+                                id="pv_id_2_0_2_0_0"
+                                class="p-menuitem"
+                                role="menuitem"
+                                aria-label="BID FAQ"
+                                aria-level="2"
+                                aria-setsize="1"
+                                aria-posinset="1"
+                              >
+                                <div class="p-menuitem-content">
+                                  <a
+                                    href="https://buildindubai.gov.ae/faq"
+                                    class="flex align-items-center p-3 cursor-pointer gap-3"
+                                    data-v-f4e29083=""
+                                  >
+                                    <span
+                                      class="flex items-center gap-1"
+                                      data-v-f4e29083=""
+                                    >
+                                      <span
+                                        class="inline-flex align-items-center justify-content-center rounded-full bg-primary w-3rem h-3rem"
+                                        data-v-f4e29083=""
+                                        ><i
+                                          class="pi pi-link !text-xl text-light-100"
+                                          data-v-f4e29083=""
+                                        ></i></span
+                                      ><span
+                                        class="fw-500 text-lg text-900 text-primary-400 ms-2"
+                                        data-v-f4e29083=""
+                                        >BID FAQ</span
+                                      >
+                                    </span>
+                                  </a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="p-megamenu-col-3">
+                            <ul
+                              id="pv_id_2_0_3_0_list"
+                              role="menu"
+                              class="p-submenu-list p-megamenu-submenu"
+                            >
+                              <li
+                                class="p-megamenu-submenu-header p-submenu-header"
+                                role="presentation"
+                              ></li>
+                              <li
+                                id="pv_id_2_0_3_0_0"
+                                class="p-menuitem"
+                                role="menuitem"
+                                aria-label="Business Templates"
+                                aria-level="2"
+                                aria-setsize="1"
+                                aria-posinset="1"
+                              >
+                                <div class="p-menuitem-content">
+                                  <a
+                                    href="https://buildindubai.gov.ae/business-templates"
+                                    class="flex align-items-center p-3 cursor-pointer gap-3"
+                                    data-v-f4e29083=""
+                                  >
+                                    <span
+                                      class="flex items-center gap-1"
+                                      data-v-f4e29083=""
+                                    >
+                                      <span
+                                        class="inline-flex align-items-center justify-content-center rounded-full bg-primary w-3rem h-3rem"
+                                        data-v-f4e29083=""
+                                        ><i
+                                          class="pi pi-file !text-xl text-light-100"
+                                          data-v-f4e29083=""
+                                        ></i></span
+                                      ><span
+                                        class="fw-500 text-lg text-900 text-primary-400 ms-2"
+                                        data-v-f4e29083=""
+                                        >Business Templates</span
+                                      >
+                                    </span>
+                                  </a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div data-v-f4e29083="">
+              <ul
+                class="flex flex-row font-medium xl:gap-5 lg:gap-2 align-items-center align-content-end text-light-50"
+                data-v-f4e29083=""
+              >
+                <li data-v-f4e29083="">
+                  <a
+                    href="index-ar.html"
+                    id="local_lang-btn"
+                    class="flex xl:text-lg lg:text-base md:text-xl text-xl lg:p-1 items-center gap-2 items-center hover:underline"
+                    data-v-f4e29083=""
+                  >
+                    <span class="text-light-50"> عربي </span>
+                    <i
+                      class="!text-light-50 dbicon language-outline text-xl pe-0"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- End BID Portal Header -->
+
+    <div
+      class="shadow-xl bid-portal-wrapper"
+      style="
+        padding: 25%;
+        margin: 3rem;
+        border-radius: 5px;
+        text-align: center;
+        background-color: white;
+      "
+    >
+      <h1 style="text-align: center; font-weight: normal">sample content</h1>
+      <a href="README.md" target="_blank">README.MD</a>
+    </div>
+
+    <!-- Start BID Portal Footer -->
+    <div class="bid-portal-wrapper" dir="ltr">
+      <footer class="w-full rounded-0 shadow-none mt-auto z-10 relative">
+        <div
+          id="other-authorities-logos"
+          class="bid-container mt-10 flex mb-4 gap-2 items-start"
+        >
+          <div
+            class="w-full flex md:flex-row lg:flex-row gap-2 flex-row flex-wrap justify-content-around align-items-baseline bg-transparent flex-wrap py-5"
+          >
+            <a
+              data-v-0ce04f0c=""
+              href="https://www.dm.gov.ae/?lang=en"
+              target="_blank"
+              class="authority-item p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center lg:items-center md:items-center items-end"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/dm.svg"
+                alt="Dubai Municipally"
+                title="Dubai Municipally"
+                class="w-full"
+            /></a>
+
+            <a
+              class="authority-item p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center lg:items-center md:items-center items-end"
+              data-v-0ce04f0c=""
+              href="https://www.pcfc.ae/en"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/pcfc.svg"
+                alt="Ports, Customs and Free Zone Corporation"
+                title="Ports, Customs and Free Zone Corporation"
+                class="w-full"
+            /></a>
+            <a
+              class="authority-item p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center lg:items-center md:items-center items-end"
+              data-v-0ce04f0c=""
+              href="https://dda.gov.ae/en/"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/dda.svg"
+                alt="Dubai Development Authority"
+                title="Dubai Development Authority"
+                class="w-full"
+            /></a>
+            <a
+              class="authority-item p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center lg:items-center md:items-center items-end"
+              data-v-0ce04f0c=""
+              href="https://dhcc.ae/"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/dhcc.svg"
+                alt="Dubai Healthcare City"
+                title="Dubai Healthcare City"
+                class="w-full"
+            /></a>
+            <a
+              class="authority-item p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center lg:items-center md:items-center items-end"
+              data-v-0ce04f0c=""
+              href="https://www.diez.ae/en/"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/diez.svg"
+                alt="Dubai Integrated Economic Zones"
+                title="Dubai Integrated Economic Zones"
+                class="w-full"
+            /></a>
+            <a
+              class="authority-item p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center lg:items-center md:items-center items-end"
+              data-v-0ce04f0c=""
+              href="https://www.mbrhe.gov.ae/en/"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/mbrhe.png"
+                alt="Mohammed Bin Rashid Housing Establishment"
+                title="Mohammed Bin Rashid Housing Establishment"
+                class="w-full"
+            /></a>
+          </div>
+
+          <div
+            style="border-inline-start: 4px solid #f1f1f1"
+            class="ps-2 flex w-full md:flex-row lg:flex-row gap-2 flex-row flex-wrap justify-content-around align-items-baseline bg-transparent flex-wrap py-5"
+          >
+            <a
+              class="authority-item p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center lg:items-center md:items-center items-end"
+              data-v-0ce04f0c=""
+              href="https://www.rta.ae/wps/portal/rta/ae/home?lang=en"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/rta.svg"
+                alt="Road And Transportation Authority"
+                title="Road And Transportation Authority"
+                class="w-full"
+            /></a>
+
+            <a
+              class="authority-item p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center lg:items-center md:items-center items-end"
+              data-v-0ce04f0c=""
+              href="https://www.dewa.gov.ae/en"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/dewa.svg"
+                alt="Dubai Electricity And Water"
+                title="Dubai Electricity And Water"
+                class="w-full"
+            /></a>
+
+            <a
+              class="authority-item p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center lg:items-center md:items-center items-end"
+              data-v-0ce04f0c=""
+              href="https://www.dcd.gov.ae/portal/en/"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/dcd.png"
+                alt="Dubai Civil Defense"
+                title="Dubai Civil Defense"
+                class="w-full"
+            /></a>
+
+            <a
+              class="authority-item p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center lg:items-center md:items-center items-end"
+              data-v-0ce04f0c=""
+              href="https://www.sira.gov.ae/en/"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/sira.svg"
+                alt="Security Industry Regulatory Agency"
+                title="Security Industry Regulatory Agency"
+                class="w-full"
+            /></a>
+
+            <a
+              class="authority-item p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center lg:items-center md:items-center items-end"
+              data-v-0ce04f0c=""
+              href="https://www.dcaa.gov.ae/home"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/dcaa.png"
+                alt="Dubai Civil Aviation Authority"
+                title="Dubai Civil Aviation Authority"
+                class="w-full"
+            /></a>
+
+            <a
+              class="authority-item telecom p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center items-center"
+              data-v-0ce04f0c=""
+              href="https://www.du.ae/"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/du.svg"
+                alt="Du"
+                title="Du"
+                class="w-full"
+            /></a>
+
+            <a
+              class="authority-item telecom p-2 rounded-1 flex flex-col lg:self-center md:self-center self-end md:flex-row lg:flex-row justify-center items-center"
+              data-v-0ce04f0c=""
+              href="https://www.eand.ae/en"
+              target="_blank"
+              ><img
+                data-v-0ce04f0c=""
+                src="images/etisalat.svg"
+                alt="Etisalat"
+                title="Etisalat"
+                class="w-full"
+            /></a>
+          </div>
+        </div>
+
+        <div
+          class="pt-9 text-white bg-no-repeat bg-right-top"
+          style="
+            background-color: #1d23bb;
+            background-image: url(images/footer-background.png);
+            padding-top: 2rem;
+          "
+        >
+          <div
+            class="bid-container flex justify-between mt-4 !text-start flex-wrap gap-4"
+            style="padding-bottom: 5rem"
+          >
+            <div
+              class="basis-1/1 xl:basis-auto lg:basis-1/3.3 flex flex-center"
+            >
+              <a href="https://buildindubai.gov.ae/">
+                <img
+                  src="images/bid-light.svg"
+                  alt="Building In Dubai Logo"
+                  height="55"
+                  class="h-55px"
+                />
+              </a>
+            </div>
+            <div
+              class="basis-1/1 md:basis-1/2.2 xl:basis-auto lg:basis-1/3.3 xl:b-0 pb-3 xl:pb-0"
+            >
+              <div
+                class="font-bold text-shadow-md text-2xl md:text-xl lg:text-xl mb-4 footer-label relative z-index-1 uppercase"
+              >
+                Sitemap
+              </div>
+              <ul class="flex flex-col gap-2">
+                <li>
+                  <a
+                    href="https://buildindubai.gov.ae/#about-us"
+                    class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                    >About us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://buildindubai.gov.ae/services"
+                    class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://buildindubai.gov.ae/corporates"
+                    class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                    >Find Consultants &amp; Contractors</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://buildindubai.gov.ae/guide"
+                    class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                  >
+                    Legislation &amp; Guides
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://buildindubai.gov.ae/bim"
+                    class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                  >
+                    BIM/E-Checking
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://buildindubai.gov.ae/contact"
+                    class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                    >Contact Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="basis-1/1 md:basis-1/2.2 xl:basis-auto lg:basis-1/3.3 xl:b-0 pb-3 xl:pb-0"
+            >
+              <div
+                class="font-bold lg:text-xl md:text-2xl text-xl mb-4 footer-label relative z-index-1 uppercase"
+              >
+                Services
+              </div>
+              <ul class="flex flex-col gap-2">
+                <li>
+                  <a
+                    href="https://buildindubai.gov.ae/services?type=3"
+                    class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                    >Owner Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://buildindubai.gov.ae/services?type=1"
+                    class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                    >Consultant Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://buildindubai.gov.ae/services?type=2"
+                    class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                    >Contractor Services</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="basis-1/1 md:basis-1/2.2 xl:basis-auto lg:basis-1/3.3 xl:b-0 pb-3 xl:pb-0 flex flex-col"
+            >
+              <div style="margin-bottom: 2.5rem">
+                <div
+                  class="font-bold lg:text-xl md:text-2xl text-xl mb-4 footer-label relative z-index-1 uppercase"
+                >
+                  Links
+                </div>
+                <ul class="flex flex-col gap-2">
+                  <li>
+                    <a
+                      class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                      href="https://www.dm.gov.ae/website-policies/terms-and-conditions/?lang=en"
+                      target="_blank"
+                      >Terms and Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                      href="https://www.dm.gov.ae/website-policies/security-privacy/?lang=en"
+                      target="_blank"
+                      >Security &amp; Privacy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-light-100 font-400 text-xl md:text-xl lg:text-lg"
+                      href="https://www.dm.gov.ae/website-policies/accessibility-information/?lang=en"
+                      target="_blank"
+                      >Accessibility Information</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <div
+                  class="font-bold lg:text-xl md:text-2xl text-xl mb-4 footer-label relative z-index-1 uppercase"
+                >
+                  Follow us
+                </div>
+                <ul class="flex gap-2 mt-3">
+                  <li>
+                    <a
+                      target="_blank"
+                      class="text-white border-1 border-white flex !rounded-full me-4 text-center align-items-center p-3"
+                      href="https://www.facebook.com/DubaiMunicipality"
+                      aria-label="Dubai Municipality Facebook Page"
+                      ><i class="dbicon facebook-solid text-white text-xl"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      aria-label="Dubai Municipality Twitter Page"
+                      class="text-white border-1 border-white flex !rounded-full me-4 text-center align-items-center p-3"
+                      href="https://twitter.com/DMunicipality"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 30 30"
+                        width="20px"
+                        height="20px"
+                      >
+                        <path
+                          fill="#ffffff"
+                          d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      aria-label="Dubai Municipality Instagram Page"
+                      class="text-white border-1 border-white flex !rounded-full me-4 text-center align-items-center p-3"
+                      href="http://instagram.com/dubaimunicipality"
+                      ><i class="dbicon Instagram-solid text-white text-xl"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              data-v-9d138c4b=""
+              class="basis-1/1 md:basis-1/2.2 xl:basis-auto lg:basis-1/3.3 xl:b-0 pb-3 xl:pb-0"
+            >
+              <div
+                data-v-9d138c4b=""
+                class="font-bold lg:text-xl md:text-2xl text-xl mb-4 footer-label relative z-index-1 uppercase"
+              >
+                Download App
+              </div>
+              <ul
+                data-v-9d138c4b=""
+                class="flex min-w-[13rem] gap-2 mt-3 mr-[4.5rem]"
+              >
+                <li
+                  data-v-9d138c4b=""
+                  class="flex flex-col items-center me-[3rem]"
+                  title="Build In Dubai Android App"
+                >
+                  <a
+                    data-v-9d138c4b=""
+                    target="_blank"
+                    class="text-white border-1 border-white d-inline !rounded-full mb-4 text-center align-items-center w-45px h-45px"
+                    href="https://play.google.com/store/apps/details?id=io.ionic.BPS"
+                    aria-label="BID Android App"
+                    ><i
+                      data-v-9d138c4b=""
+                      class="pi pi-android text-white text-xl pt-[.65rem] !text-[1.4rem]"
+                    ></i
+                  ></a>
+                  <img
+                    src="images/android-qr.svg"
+                    width="77"
+                    alt="QR Code for BID Android App"
+                  />
+                </li>
+                <li
+                  data-v-9d138c4b=""
+                  class="flex flex-col items-center"
+                  title="Build In Dubai Apple App"
+                >
+                  <a
+                    data-v-9d138c4b=""
+                    target="_blank"
+                    class="text-white border-1 border-white d-inline !rounded-full mb-4 text-center align-items-center w-45px h-45px"
+                    href="https://apps.apple.com/ae/app/dubai-bps/id1318091114"
+                    aria-label="BID Apple App"
+                    ><i
+                      data-v-9d138c4b=""
+                      class="pi pi-apple text-white text-xl pt-[.65rem] !text-[1.4rem]"
+                    ></i
+                  ></a>
+                  <img
+                    src="images/ios-qr.svg"
+                    width="77"
+                    alt="QR Code for BID Apple App"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div
+        class="flex overflow-hidden justify-between items-center fixed bottom-0 left-0 h-50px w-full bg-primary-500 z-800"
+        style="
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 50px;
+          background-color: rgba(21, 25, 133, 1);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          z-index: 800;
+        "
+      >
+        <div class="flex items-center justify-center h-full">
+          <button
+            onclick="window.happinessMeter.showModal()"
+            class="flex items-center h-full hover:bg-secondary-400"
+            style="padding: 0 0.5rem"
+          >
+            <i
+              class="dbicon happy-face-outline text-white items-center"
+              style="font-size: 3.1rem"
+            ></i>
+          </button>
+          <button
+            onclick="window.platform04.showModal()"
+            class="flex cursor-pointer hover:bg-secondary-400 px-[0.625rem] py-0"
+            style="padding: 0.5rem 0.7rem"
+          >
+            <img
+              src="images/image04.svg"
+              class="w-[3.17rem] h-auto"
+              alt="04 icon"
+              style="width: 2.3rem"
+            />
+          </button>
+          <dialog
+            id="happinessMeter"
+            class="bid-modal"
+            style="
+              margin: auto;
+              border-radius: 5px;
+              width: 850px;
+              height: 650px;
+              box-shadow: 0 1px 3px #0000004d;
+            "
+          >
+            <div style="padding: 1rem">
+              <button
+                onclick="window.happinessMeter.close()"
+                aria-label="Close"
+                type="button"
+              >
+                <span>&#10005;</span>
+              </button>
+            </div>
+            <iframe
+              sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+              class="w-full h-550px"
+              frameborder="0"
+              vspace="0"
+              hspace="0"
+              webkitallowfullscreen=""
+              mozallowfullscreen=""
+              allowfullscreen=""
+              scrolling="auto"
+              src="https://portal.dm.gov.ae/HappinessMeterDMClient/HappinessProccessor?type=null&amp;lang=en&amp;appId=DMPortal"
+            ></iframe>
+          </dialog>
+
+          <dialog
+            id="platform04"
+            class="bid-modal"
+            style="
+              margin: auto;
+              border-radius: 5px;
+              width: 850px;
+              height: 650px;
+              box-shadow: 0 1px 3px #0000004d;
+              overflow: visible;
+              position: relative;
+              border-radius: 10px;
+            "
+          >
+            <div style="padding: 0.5rem; height: 45px; display: flex">
+              <button
+                onclick="window.platform04.close()"
+                aria-label="Close"
+                type="button"
+              >
+                <span>&#10005;</span>
+              </button>
+            </div>
+            <div style="height: calc(100% - 45px)">
+              <iframe
+                style="border-radius: 0 0 10px 10px"
+                sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+                class="w-full h-full"
+                frameborder="0"
+                vspace="0"
+                hspace="0"
+                webkitallowfullscreen=""
+                mozallowfullscreen=""
+                allowfullscreen=""
+                scrolling="auto"
+                src="https://04.gov.ae/case-generate?entity=567c740b-0572-ec11-8943-000d3a6c3da5&amp;lang=en"
+              >
+              </iframe>
+              <div
+                data-v-6b7d3ebc=""
+                style="
+                  text-align: center;
+                  font-size: 14px;
+                  color: #fff;
+                  position: absolute;
+                  left: 0;
+                  right: 0;
+                  background-color: #000;
+                  z-index: 99;
+                  bottom: -35px;
+                  margin: 0 70px;
+                  border-radius: 10px;
+                "
+              >
+                The Unified interactive platform between Dubai Government and
+                its Customers - المنصة التفاعلية الموحدة
+              </div>
+            </div>
+          </dialog>
+        </div>
+
+        <div class="flex items-center justify-center h-full">
+          <div
+            class="flex items-center justify-center h-full w-110px hover:bg-secondary-400 bg-primary-500 text-light-100 fw-500"
+            style="color: white"
+          >
+            <a
+              href="https://buildindubai.gov.ae/feedback"
+              class="flex items-center justify-center h-full w-full text-light-100 hover:text-light-0 fw-500 cursor-pointer"
+              style="color: white"
+              ><i
+                class="dbicon feedback-outline text-light-100 text-[2.5rem]"
+                style="font-size: 2rem"
+              ></i>
+              Feedback</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <button class="tooltip-container !bottom-[4.5rem] !fixed !right-4 !z-10">
+        <div class="tooltip en">Chat with Building Code</div>
+        <a
+          data-v-9d138c4b=""
+          href="https://buildindubai.gov.ae/chat-with-building-code"
+        >
+          <div
+            style="display: flex; align-items: center; justify-content: center"
+            data-v-9d138c4b=""
+            class="relative iconWrapper !hover:bg-[#31a89b] !hover:after:border-b-[#31a89b]"
+          >
+            <img
+              src="data:image/png;base64,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"
+              class="w-51px h-48px"
+              alt="Ask Building Code Icon"
+            />
+          </div>
+        </a>
+      </button>
+
+      <div id="bid-portal-mobile-side-menu" style="display: none">
+        <div
+          class="p-sidebar p-component p-sidebar-left p-sidebar-active p-ripple-disabled"
+          role="complementary"
+          aria-modal="true"
+          style="z-index: 1101"
+        >
+          <div class="p-sidebar-header">
+            <button
+              onclick="bidPortalToggleSideMenu(false)"
+              type="button"
+              class="p-sidebar-close p-sidebar-icon p-link"
+              aria-label="Close"
+            >
+              <span class="dbicon close-solid"></span>
+            </button>
+          </div>
+          <div class="p-sidebar-content text-start">
+            <ul class="flex-col gap-y-7 text-sm">
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  href="https://buildindubai.gov.ae/about"
+                  class="text-gray-700 hover:underline"
+                  >About</a
+                >
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  href="https://buildindubai.gov.ae/user-journey"
+                  class="text-gray-700 hover:underline"
+                  >Construction Journey</a
+                >
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  href="https://buildindubai.gov.ae/services"
+                  class="text-gray-700 hover:underline"
+                  >Services</a
+                >
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  href="https://buildindubai.gov.ae/corporates"
+                  class="text-gray-700 hover:underline"
+                  >Find Consultants &amp; Contractors</a
+                >
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  aria-current="page"
+                  href="https://buildindubai.gov.ae/bim"
+                  class="router-link-active router-link-exact-active text-gray-700 hover:underline"
+                  >BIM/E-Checking</a
+                >
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  aria-current="page"
+                  href="https://buildindubai.gov.ae/bim#bim-videos"
+                  class="router-link-active router-link-exact-active text-gray-700 hover:underline"
+                  >BIM FAGs and Videos</a
+                >
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  href="https://buildindubai.gov.ae/guide"
+                  class="text-gray-700 hover:underline"
+                  >Legislation &amp; Guide</a
+                >
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  aria-current="page"
+                  href="https://buildindubai.gov.ae/user-guide"
+                  class="router-link-active router-link-exact-active text-gray-700 hover:underline"
+                  >User Guide</a
+                >
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  aria-current="page"
+                  href="https://buildindubai.gov.ae/quick-pay"
+                  class="router-link-active router-link-exact-active text-gray-700 hover:underline"
+                  >Quick Pay</a
+                >
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  aria-current="page"
+                  href="https://buildindubai.gov.ae/violation-enquiry"
+                  class="router-link-active router-link-exact-active text-gray-700 hover:underline"
+                  >Violations Enquiry
+                </a>
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  aria-current="page"
+                  href="https://buildindubai.gov.ae/faq"
+                  class="router-link-active router-link-exact-active text-gray-700 hover:underline"
+                >
+                  BIM FAG
+                </a>
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  aria-current="page"
+                  href="https://buildindubai.gov.ae/business-templates"
+                  class="router-link-active router-link-exact-active text-gray-700 hover:underline"
+                  >Business Templates</a
+                >
+              </li>
+              <li class="border-b-1 border-gray-300 py-4 indent-10">
+                <a
+                  href="https://buildindubai.gov.ae/contact"
+                  class="text-gray-700 hover:underline"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="p-sidebar-mask p-component-overlay p-component-overlay-enter"
+          style="z-index: 1100"
+          onclick="bidPortalToggleSideMenu(false)"
+        ></div>
+      </div>
+    </div>
+    <!-- End BID Portal Footer -->
+  </body>
+</html>
